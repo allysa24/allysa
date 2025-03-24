@@ -169,7 +169,7 @@ footer a:hover {
 }
 
 .team-member img {
-    border-radius: 0;          /* Makes the image rectangular */
+    border-radius: 8px;          /* Makes the image rectangular */
     width: 180px;               /* Keep the same dimensions */
     height: 180px;
     object-fit: cover;          /* Ensures it maintains its aspect ratio */
