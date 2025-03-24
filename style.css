@@ -40,13 +40,13 @@ section {
 
 /* Hero Section */
 .hero-section {
-    background: url('bg.jpg') no-repeat center center/cover;
+    background: url('resto.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #eddc42;
     margin-top: 0; /* Reset margin to eliminate space */
 }
 
@@ -154,6 +154,8 @@ footer a:hover {
 }
 
 .team-member {
+    display: flex;
+    justify-content: center;
     background-color: #fff;
     border-radius: 8px;
     padding: 30px;
@@ -167,11 +169,12 @@ footer a:hover {
 }
 
 .team-member img {
-    border-radius: 50%;
-    width: 180px; /* Adjusted size */
+    border-radius: 0;          /* Makes the image rectangular */
+    width: 180px;               /* Keep the same dimensions */
     height: 180px;
-    object-fit: cover;
+    object-fit: cover;          /* Ensures it maintains its aspect ratio */
 }
+
 
 .team-member h5 {
     font-size: 1.4rem; /* Slightly smaller for better readability */
